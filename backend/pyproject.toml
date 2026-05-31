@@ -1,0 +1,19 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Libris backend"
+authors = [
+    {name = "Przemekkk"}
+]
+license = "MIT"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi (>=0.136.3,<0.137.0)",
+    "sqlmodel (>=0.0.38,<0.0.39)",
+    "argon2 (>=0.1.10,<0.2.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
